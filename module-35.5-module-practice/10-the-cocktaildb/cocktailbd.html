@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+
+<body>
+
+     <h1>secarch your favurte</h1>
+     <!-- search filed -->
+     <div class="input-group mb-3 w-50 mx-auto">
+          <input id="input" type="text" class="form-control" placeholder="search" aria-label="Recipient's username"
+               aria-describedby="button-addon2">
+          <button onclick="loadSearch()" class="btn btn-outline-secondary" type="button"
+               id="button-addon2">search</button>
+     </div>
+
+     <!-- single result -->
+
+     <div id="single-drink" class="card" style="width: 18rem;">
+
+     </div>
+
+     <!-- search result field -->
+     <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+     </div>
+
+
+
+
+     <script src="cocktaildb.js"></script>
+</body>
+
+</html>
